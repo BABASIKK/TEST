@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+body {
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden; }
+@media (min-width: 420px) {
+    h1 {
+        margin-top: 5px;
+        font-size: 50px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .container {
+        display: flex;
+    }
+     .aside, .main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .images{
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+    }
+    .dav {
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 5px;
+        width: 350px;
+        height: 350px;
+    }
+    h3 {
+        color: aliceblue;
+        font-size: 40px;
+        text-align: center;
+        vertical-align:middle;
+} }
+@media (min-width: 800px) {
+    h1 {
+        margin-top: 5px;
+        font-size: 50px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .container {
+        display: flex;
+    }
+     .aside, .main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .images{
+        display: flex;
+        flex-wrap: wrap;
+        width: 800px;
+    }
+    .dav {
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 5px;
+        width: 350px;
+        height: 350px;
+    }
+    h3 {
+        color: aliceblue;
+        font-size: 40px;
+        text-align: center;
+        vertical-align:middle;
+    } }
+@media (min-width: 1200px){
+h1 {
+    margin-top: 5px;
+    font-size: 50px;
+    text-align: center;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+.container {
+    display: flex;
+}
+ .aside, .main {
+    margin-left: auto;
+    margin-right: auto;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+}
+.dav {
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+    width: 500px;
+    height: 500px;
+}
+h3 {
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    vertical-align:middle;
+} }
+
+.rectangle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    line-height: 100px;
+    margin-top: 50px; }
+  
